@@ -1,0 +1,107 @@
+
+div.navWrap{
+    background-color: white;
+    font-size: 16px;
+    border: 2px;
+    border-bottom: thin;
+    border-style: solid;
+    border-color: lightgrey;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    /* border is not working. try adding new div */
+    /* border-bottom: 2px;
+    border-color: rgb(114, 109, 109);
+    border-bottom-style: solid; */
+  }
+span.navRightSide {
+  position: absolute;
+  right: 3%;
+  color: rgb(80, 75, 75);
+  display: box;
+  list-style: none;  
+  padding-top: 5px;
+}
+
+span.locationButton {
+  padding-left: 2mm;
+}
+
+li#rightSide {
+  padding-left: 1mm;
+  padding-right: 2mm;
+  display: inline-flex;
+  white-space: nowrap;
+}
+li#heart {
+  padding-left: 1mm;
+  padding-right: 2mm;
+  display: inline-flex;
+  white-space: nowrap;
+}
+li#heart:hover {
+  cursor: pointer;
+}
+li#rightSide:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+select.selectTag {
+  border: none;
+  background-color: none;
+  background: none;
+
+}
+
+    /* trying to also get spacing  */
+  .navBarTwo {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    text-align: center;
+    text-align: left;
+  }
+  li.deleteWMobile {
+    background: none;
+    color: none;
+    background-color: none;
+  }
+
+  button.navLeftSide {
+    margin-top: -2mm;
+    background-color: none;  
+    background: none;
+    color: rgb(80, 75, 75);
+    font-size: 12px;
+    border: none;
+} 
+button.navLeftSide:hover {
+  cursor: pointer;
+}
+
+  button.navLeftSide div span.leftSide {
+    font-weight: lighter;
+  }
+  div.location {
+    font-weight: bold;
+    font-size: 13px; 
+    text-align: left;
+  }
+  span#time {
+    color: green;
+  }
+
+  @media only screen and (max-width: 1000px) {
+
+    li#rightSide {
+      padding-left: 0mm;
+      padding-right: 1mm;
+    }
+
+    li.deleteWMobile {
+      padding: 0;
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 0px;
+    }
+    
+  }
